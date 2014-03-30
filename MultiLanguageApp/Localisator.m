@@ -8,6 +8,8 @@
 
 #import "Localisator.h"
 
+#define kDeviceLanguage @"DeviceLanguage"
+
 static NSString * const kSaveLanguageDefaultKey = @"kSaveLanguageDefaultKey";
 
 @interface Localisator()
@@ -43,7 +45,7 @@ static NSBundle *bundle = nil;
     {
         _defaults                       = [NSUserDefaults standardUserDefaults];
         _availableLanguages     = @[@"DeviceLanguage",@"en",@"he",@"ar",@"ru"];
-        _currentLanguage        = nil;
+        _currentLanguage        = kDeviceLanguage;
         
         NSString *languageSaved = [self.defaults objectForKey:kSaveLanguageDefaultKey];
         
@@ -89,7 +91,7 @@ static NSBundle *bundle = nil;
         } else {
             
             // Reset localization
-            _currentLanguage = nil;
+            _currentLanguage = kDeviceLanguage;
             bundle = [NSBundle mainBundle];
         }
     }
@@ -111,7 +113,7 @@ static NSBundle *bundle = nil;
     
     if ([newLanguage isEqualToString:@"DeviceLanguage"]) {
         
-        _currentLanguage = nil;
+        _currentLanguage = kDeviceLanguage;
         bundle = [NSBundle mainBundle];
         [self updateApplicationData];
         
