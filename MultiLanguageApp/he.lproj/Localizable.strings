@@ -1,0 +1,19 @@
+/*
+ Localizable.strings
+ MultiLanguageApp
+ 
+ Created by Hasan_Sa on 3/30/14.
+ Copyright (c) 2014 Hasan_Sa. All rights reserved.
+ */
+"LanguageExtiontion"                = "he";
+"LanguageSettings"                  = "הגדרות שפה";
+"GeneralSettings"                  = "כללי";
+"CurrentLanguage"                   = "עברית היא השפה הנוכחית";
+"DeviceLanguage"                    = "ברירת מחדל";
+"en"                                = "אנגלית";
+"he"                                = "עברית";
+"ar"                                = "ערבית";
+"ru"                                = "רוסית";
+
+
+"LocalisatorViewTitle"                  = "בחר שפה";

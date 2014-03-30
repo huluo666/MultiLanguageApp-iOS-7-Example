@@ -14,13 +14,17 @@
 		872B411118E8481600AAD3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B411018E8481600AAD3F6 /* main.m */; };
 		872B411518E8481600AAD3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B411418E8481600AAD3F6 /* AppDelegate.m */; };
 		872B411818E8481600AAD3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872B411618E8481600AAD3F6 /* Main.storyboard */; };
-		872B411B18E8481600AAD3F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B411A18E8481600AAD3F6 /* ViewController.m */; };
 		872B411D18E8481600AAD3F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872B411C18E8481600AAD3F6 /* Images.xcassets */; };
 		872B412418E8481600AAD3F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B412318E8481600AAD3F6 /* XCTest.framework */; };
 		872B412518E8481600AAD3F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B410418E8481600AAD3F6 /* Foundation.framework */; };
 		872B412618E8481600AAD3F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B410818E8481600AAD3F6 /* UIKit.framework */; };
 		872B412E18E8481600AAD3F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 872B412C18E8481600AAD3F6 /* InfoPlist.strings */; };
 		872B413018E8481600AAD3F6 /* MultiLanguageAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B412F18E8481600AAD3F6 /* MultiLanguageAppTests.m */; };
+		872B414118E84B8000AAD3F6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B413A18E84B8000AAD3F6 /* HomeViewController.m */; };
+		872B414218E84B8000AAD3F6 /* Localisator.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B413C18E84B8000AAD3F6 /* Localisator.m */; };
+		872B414318E84B8000AAD3F6 /* LocalisatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B413E18E84B8000AAD3F6 /* LocalisatorViewController.m */; };
+		872B414418E84B8000AAD3F6 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B414018E84B8000AAD3F6 /* SettingsTableViewController.m */; };
+		872B414918E84D9900AAD3F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 872B414B18E84D9900AAD3F6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,24 @@
 		872B411318E8481600AAD3F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		872B411418E8481600AAD3F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		872B411718E8481600AAD3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		872B411918E8481600AAD3F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		872B411A18E8481600AAD3F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		872B411C18E8481600AAD3F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		872B412218E8481600AAD3F6 /* MultiLanguageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLanguageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		872B412318E8481600AAD3F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		872B412B18E8481600AAD3F6 /* MultiLanguageAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiLanguageAppTests-Info.plist"; sourceTree = "<group>"; };
 		872B412D18E8481600AAD3F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		872B412F18E8481600AAD3F6 /* MultiLanguageAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiLanguageAppTests.m; sourceTree = "<group>"; };
+		872B413918E84B8000AAD3F6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		872B413A18E84B8000AAD3F6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		872B413B18E84B8000AAD3F6 /* Localisator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localisator.h; sourceTree = "<group>"; };
+		872B413C18E84B8000AAD3F6 /* Localisator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localisator.m; sourceTree = "<group>"; };
+		872B413D18E84B8000AAD3F6 /* LocalisatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalisatorViewController.h; sourceTree = "<group>"; };
+		872B413E18E84B8000AAD3F6 /* LocalisatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalisatorViewController.m; sourceTree = "<group>"; };
+		872B413F18E84B8000AAD3F6 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		872B414018E84B8000AAD3F6 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		872B414A18E84D9900AAD3F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		872B414C18E84DAB00AAD3F6 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		872B414D18E84DB100AAD3F6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		872B414E18E84DBA00AAD3F6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +128,9 @@
 			children = (
 				872B411318E8481600AAD3F6 /* AppDelegate.h */,
 				872B411418E8481600AAD3F6 /* AppDelegate.m */,
+				872B414618E84B9A00AAD3F6 /* ViewControllers */,
+				872B414518E84B8700AAD3F6 /* Language Manager */,
 				872B411618E8481600AAD3F6 /* Main.storyboard */,
-				872B411918E8481600AAD3F6 /* ViewController.h */,
-				872B411A18E8481600AAD3F6 /* ViewController.m */,
 				872B411C18E8481600AAD3F6 /* Images.xcassets */,
 				872B410B18E8481600AAD3F6 /* Supporting Files */,
 			);
@@ -150,6 +164,29 @@
 				872B412C18E8481600AAD3F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		872B414518E84B8700AAD3F6 /* Language Manager */ = {
+			isa = PBXGroup;
+			children = (
+				872B413B18E84B8000AAD3F6 /* Localisator.h */,
+				872B413C18E84B8000AAD3F6 /* Localisator.m */,
+				872B414B18E84D9900AAD3F6 /* Localizable.strings */,
+			);
+			name = "Language Manager";
+			sourceTree = "<group>";
+		};
+		872B414618E84B9A00AAD3F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				872B413918E84B8000AAD3F6 /* HomeViewController.h */,
+				872B413A18E84B8000AAD3F6 /* HomeViewController.m */,
+				872B413F18E84B8000AAD3F6 /* SettingsTableViewController.h */,
+				872B414018E84B8000AAD3F6 /* SettingsTableViewController.m */,
+				872B413D18E84B8000AAD3F6 /* LocalisatorViewController.h */,
+				872B413E18E84B8000AAD3F6 /* LocalisatorViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +248,9 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
+				ar,
+				ru,
 			);
 			mainGroup = 872B40F818E8481600AAD3F6;
 			productRefGroup = 872B410218E8481600AAD3F6 /* Products */;
@@ -228,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872B414918E84D9900AAD3F6 /* Localizable.strings in Resources */,
 				872B411D18E8481600AAD3F6 /* Images.xcassets in Resources */,
 				872B410F18E8481600AAD3F6 /* InfoPlist.strings in Resources */,
 				872B411818E8481600AAD3F6 /* Main.storyboard in Resources */,
@@ -249,9 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872B411B18E8481600AAD3F6 /* ViewController.m in Sources */,
+				872B414418E84B8000AAD3F6 /* SettingsTableViewController.m in Sources */,
 				872B411518E8481600AAD3F6 /* AppDelegate.m in Sources */,
+				872B414218E84B8000AAD3F6 /* Localisator.m in Sources */,
+				872B414318E84B8000AAD3F6 /* LocalisatorViewController.m in Sources */,
 				872B411118E8481600AAD3F6 /* main.m in Sources */,
+				872B414118E84B8000AAD3F6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +342,17 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		872B414B18E84D9900AAD3F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				872B414A18E84D9900AAD3F6 /* en */,
+				872B414C18E84DAB00AAD3F6 /* he */,
+				872B414D18E84DB100AAD3F6 /* ar */,
+				872B414E18E84DBA00AAD3F6 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -333,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
